@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div{
+    background-color: lightgray;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+div:hover {
+color: red;
+}
+
+
+div > p {
+display: none;
+width: 5px;
+height: 5px;
+}
+
+
+div:hover > p {
+
+display: block;
+color: blue;
+background-color: lightgray;
+width: 5px;
+height: 5px;
+}
+
+#p {
+
+    color: red;
+}
+

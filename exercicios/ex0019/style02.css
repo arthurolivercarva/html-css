@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgba(148, 146, 146, 0.418);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+
+}
+header {
+
+    background-color: rgba(148, 146, 146, 0.918);
+    padding: 10px;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(65, 63, 63, 0.548);
+
+}
+
+.enfase {
+    font-weight: 600;
+    font-style: italic;
+}
+.nike{
+
+    color: white;
+}
+
+article{
+
+
+    margin: 50px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 500;
+}
+
+aside{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px rgba(82, 82, 65, 0.521);
+    
+    
+}
+#bola {
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}

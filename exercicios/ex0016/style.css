@@ -1,0 +1,23 @@
+@charset "UTF-8" ;
+
+body {
+
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+    font: 900 20px Arial
+}
+p{
+
+    text-align: justify;
+    text-indent: 20px; /*Famoso dedao de paragrafo*/
+}
