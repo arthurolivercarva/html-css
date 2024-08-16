@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="isug">Sugestão:</label><br>
+            <textarea name="sug" id="isug" cols="30" rows="10" maxlength="2"></textarea>
+        </p>
+        <p>
+            <label for="iclass">Escolha sua classe:</label>
+            <input type="text" name="classe" id="iclass" list="iclas">
+            <datalist id="iclas">
+                <option>Cavalheiro</option>
+                <option>Princesa</option>
+                <option>Rei</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="iarma">Escolha sua arma:</label>
+            <select name="arma " id="iarma">
+                <option value="" selected>--Escolhe pivete--</option>
+                <optgroup label="Armas de fogo">
+                    <option value="AK">AK-47</option>
+                    <option value="Mg">MG-46</option>
+                </optgroup>
+                <optgroup label="Biblia">
+                    <option value="cajado">CAJADO DE MOISES</option>
+                    <option value="mula">MULA DE BALAÃO</option>
+                </optgroup>
+
+
+
+
+
+            </select>
+        </p>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
